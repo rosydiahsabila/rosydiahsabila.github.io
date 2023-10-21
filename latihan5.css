@@ -6,8 +6,7 @@ body {
 }
 .container {
     width: 500px;
-    margin: 10px;
-    height: 10px;
+    margin: 20px;
     background-color: rgb(251, 255, 149);
     border: 8px dotted rgb(255, 95, 27);
 }
@@ -23,8 +22,7 @@ h2 {
     text-align: center;
 }
 p{
-    padding: 5px;
-    height: 5px;
+    padding: 10px;
     text-align: justify;
     color: rgb(166, 0, 255);
 }
