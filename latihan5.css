@@ -5,7 +5,7 @@ body {
     background-attachment: fixed;
 }
 .container {
-    width: 500px;
+    width: 900px;
     margin: 20px;
     background-color: rgb(251, 255, 149);
     border: 8px dotted rgb(255, 95, 27);
@@ -13,12 +13,12 @@ body {
 /* buat isi */
 h1 {
     background-color: rgb(108, 255, 147);
-    color: rgb(255, 8, 8);
+    color: rgb(rgb(25, 4, 130));
     text-align: center;
 }
 h2 {
     background-color: rgb(129, 205, 255);
-    color: rgb(255, 95, 191);
+    color: rgb(rgb(248, 117, 170));
     text-align: center;
 }
 p{
