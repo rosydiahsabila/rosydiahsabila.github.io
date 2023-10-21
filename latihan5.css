@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://www.wowkeren.com/display/images/photo/2020/11/25/00340997.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    width: 500px;
+    margin: 10px;
+    height: 10px;
+    background-color: rgb(251, 255, 149);
+    border: 8px dotted rgb(255, 95, 27);
+}
+/* buat isi */
+h1 {
+    background-color: rgb(108, 255, 147);
+    color: rgb(255, 8, 8);
+    text-align: center;
+}
+h2 {
+    background-color: rgb(129, 205, 255);
+    color: rgb(255, 95, 191);
+    text-align: center;
+}
+p{
+    padding: 5px;
+    height: 5px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
