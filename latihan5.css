@@ -5,10 +5,10 @@ body {
     background-attachment: fixed;
 }
 .container {
-    width: 900px;
+    width: 1000px;
     margin: 20px;
     background-color: rgb(251, 255, 149);
-    border: 8px dotted rgb(255, 95, 27);
+    border: 5px dotted rgb(255, 95, 27);
     text-align: center;
 }
 /* buat isi */
