@@ -1,29 +1,42 @@
 body {
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230325/pngtree-summer-cartoon-beach-landscape-background-image_2095055.jpg);
+    background-image: url(https://berita.99.co/wp-content/uploads/2023/04/jenis-awan-stratus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .container {
-    width: 900px;
-    margin: 20px;
+    width: 1350px;
+    margin: 90px;
     background-color: rgb(251, 255, 149);
-    border: 5px dotted rgb(255, 95, 27);
+    border: 5px dotted rgb(224, 77, 13);
     text-align: center;
 }
-/* buat isi */
-h1 {
-    background-color: rgb(108, 255, 147);
-    color: rgb(25, 4, 130);
+.container2 {
+    width: 1250px;
+    margin: 130px;
+    background-color: rgb(255, 218, 248);
+    border: 5px dotted rgb(171, 6, 200);
     text-align: center;
+}
+    /* buat isi */
+h1 {
+    background-color: rgb(187, 255, 200);
+    color: rgb(255, 60, 183);
+    text-align: center;
+    font-size: 50px;
+    font-family:'Gill Sans';
 }
 h2 {
-    background-color: rgb(129, 205, 255);
-    color: rgb(25, 4, 130);
+    background-color: rgb(187, 249, 255);
+    color: rgb(93, 212, 91);
     text-align: center;
+    font-size: 50px;
+    font-family:'Gill Sans';
 }
 p{
-    padding: 10px;
+    padding: 20px;
     text-align: justify;
-    color: rgb(166, 0, 255);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: sans-serif;
 }
