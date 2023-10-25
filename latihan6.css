@@ -1,0 +1,158 @@
+/* header atas */
+header {
+    background-color: #ff8d8de1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/31/Spy_%C3%97_Family_logo.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 5;
+    background-image: url(https://i.pinimg.com/564x/0a/ff/bc/0affbc4de22e10bd9dfb71d6bcb5815d.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ *{scroll-behavior: smooth;}
+
+h1 {
+    font-size: 35px;
+    font-family: Playpen Sans;
+    text-align: center;
+    letter-spacing: 3px;
+}
+h2 {
+    font-size: 30px;
+    font-family: Playpen Sans;
+    color: rgb(49, 160, 39);
+    text-align: center
+}
+p {
+    font-size: 20px;
+    font-family: Kalam;
+    color: #000000;
+}
+
+/* gambar  */
+#spyxfamily-image {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border: 5px solid #f7ff0f;
+    border-radius: 10px;
+}
+
+.outline {
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: #f7ff0f;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1500px;
+    background-color: #fdcbcb77;
+    border-radius: 5px;
+    font-family: Kalam; 
+    text-align: justify;
+}
+
+/* akses cepat */
+.isi {
+    outline-style: dotted;
+    outline-width: 5px;
+    padding: 5px;
+    margin: 20px auto;
+    width: 70%;
+    max-width: 210px;
+    background-color: #fdcbcb77;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffff4a;
+    font-style: bold;
+    font-family: Kalam;
+}
+p a:hover {text-decoration: underline;}
+
+/* pengisi suara  */
+.suara {
+    border: 5px solid #f7ff0f;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 400px;
+    background-color: #fdcbcb77;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.box-model {
+    border: 10px dotted #ff0f9f;      
+    padding: 5px;
+}
+tabel {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 250px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Kalam;
+}
+
+table th, table td {
+    border: 3px solid #ffad50;
+    padding: 5px;
+    position: center;
+}
+
+.info {
+    border: 5px solid #f7ff0f;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1500px;
+    background-color: #fdcbcb77;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cara {
+    border: 5px solid #f7ff0f;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fdcbcb77;
+    padding: 15px;
+    border-radius: 10px;
+}
+li {font-size: 20px; font-weight: bold; font-family: Kalam;}
+
+/* episode */
+.episode {
+    border: 5px solid #f7ff0f;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1500px;
+    background-color: #fdcbcb77;
+    padding: 5px;
+    border-radius: 10px; 
+    font-size: 20px;
+    font-family: Kalam; 
+}
+
+/* footer bawah*/
+.footer {
+    background-color: #ff8d8de1;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    font-family: Playpen Sans; 
+    
+}
