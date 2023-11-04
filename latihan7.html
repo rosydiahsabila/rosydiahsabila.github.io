@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <title> Toko Korea</title>
+    <link rel="stylesheet" href="latihan7.css">
+</head>
+<body>
+   <nav class="navbar">
+    <div class="logo">
+        <a href="#home"> TokoKorea.</a>
+    </div>
+
+    <div class="navbar-nav" id="navbar-nav">
+        <a href="#home"> Home</a>
+        <a href="#about"> About</a>
+        <a href="#product"> Product</a>
+        <a href="#contact"> Contact</a>
+    </div>
+
+
+    <div id="menu" class="menu">
+        <i data-feather="menu"></i>
+    </div>
+   </nav> 
+    
+   <header class="header-background">
+        <header class="header-background"
+        <h1> MENJUAL PRODUK DARI KOREA SELATAN ORI</h1>
+   </header>
+    
+   <main>
+    <div class="subjudul">
+        <h2> Produk Terlaris</h2>
+        <p> Berikut merupakan produk Korea Selatan yang lagi viral di Korea Selatan dan juga viral di Indonesia</p>
+        </div>
+    <section class="produk">
+        <div class="container">
+            <div class="arrow 1 " onclick="prev()">
+                <img src="images7/l.png" alt="">
+            </div>
+            <div class="slide slide-1">
+                <div class="caption">
+                <h2> Mie Samyang</h2>
+            </div>
+            <div class="slide slide-2">
+                <div class="caption">
+                <h2> Nature Republic</h2>
+            </div>
+            <div class="slide slide-1">
+                <div class="caption">
+                <h2> Snail Truecica</h2>
+            </div>
+            <div class="slide slide-1">
+                <div class="caption">
+                <h2> Toppoki</h2>
+            </div>
+            <div class="slide slide-1">
+                <div class="caption">
+                <h2> Gimbab</h2>
+            </div>
+        </div>
+        <div class="arrow r" onclick="next()">
+            <img src="img/r.png" alt="">
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="subjudul">
+            <h2> Beli Sekarang!!! Keburu Kehabisan</h2>
+        </div>
+        <div class="center-form">
+            <div class="buy-form">
+                <h2> Keranjang Pembelian</h2>
+                <form id="pesanForm" action="proses_pemesanan.php" method="post">
+                <label for="nama">Nama :</label>
+                    <input type="text" id="nama" name="nama" required>
+                <label for="total">Jumlah Pesanan :</label>
+                    <input type="number" id="total" name="total" required>
+                <label for="produk"> Produk :</label>
+                    <select id="produk" name="produk" required>
+                        <option value="Mie Samyang">Mie Samyang</option>
+                        <option value="Nature Republik">Nature Republik</option>
+                        <option value="Snail Truecica">Snail Truecica</option>
+                        <option value="Toppoki">Toppoki</option>
+                        <option value="Gimbab">Gimbab</option>
+                    </select>
+
+                    <button type="submit"> Pesan Produk</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script src="latihan7.js"> </script>
+
+    <script>
+        feather.replace();
+      </script>
+</body>
+</html>
